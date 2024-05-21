@@ -5,5 +5,6 @@
         public int Id { get; set; }
         public string Description { get; set; }
         public Enum Style { get; set; }
+        public Enum Weather { get; set; }
     }
 }
