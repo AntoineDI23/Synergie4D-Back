@@ -6,8 +6,6 @@ namespace Synergie4D_Back.Services.OutfitService
     {
         #region CRUD Outfit
 
-        void AddAllOutfits();
-
         Outfit GetOutfitById(int outfitId);
 
         IEnumerable<Outfit> GetAllOutfits();
