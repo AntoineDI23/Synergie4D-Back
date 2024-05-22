@@ -1,4 +1,5 @@
 using Synergie4D_Back.Services.OutfitService;
+using Synergie4D_Back.Services.WeatherService;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,6 +11,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped(typeof(IOutfitService), typeof(OutfitService));
+builder.Services.AddScoped(typeof(IWeatherService), typeof(WeatherService));
 
 var app = builder.Build();
 

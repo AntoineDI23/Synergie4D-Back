@@ -4,5 +4,6 @@
     {
         public string City { get; set; }
         public double Temperature { get; set; }
+        public string WeatherDescription { get; set; }
     }
 }
