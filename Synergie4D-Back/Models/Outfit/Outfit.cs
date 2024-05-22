@@ -12,7 +12,7 @@ namespace Synergie4D_Back.Models.Outfit
         public Style Style { get; set; }
 
         [JsonConverter(typeof(JsonStringEnumConverter))]
-        public Weather Weather { get; set; }
+        public Temperature Weather { get; set; }
         public string Slug { get; set; }
     }
 }
