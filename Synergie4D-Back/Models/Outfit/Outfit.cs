@@ -6,5 +6,6 @@
         public string Description { get; set; }
         public Enum Style { get; set; }
         public Enum Weather { get; set; }
+        public string Slug { get; set; }
     }
 }
